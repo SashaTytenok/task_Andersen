@@ -6,13 +6,12 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        String str="";
+        String str;
         Scanner in = new Scanner(System.in);
 
         while (true){
             System.out.println("You can chose 3 options: number>7, write Вячеслав, write array.");
             System.out.println("Write 'q' to exit.");
-            System.out.println("Write 'asdasd");
             str=in.nextLine();
             if(str.equals("q")) break;
 
@@ -42,9 +41,9 @@ public class Main {
                         str=in.nextLine();
                         if(str.equals("q")) break;
                         arr_L.add(Integer.parseInt(str));
-                    } catch (NumberFormatException e){
+                    } catch (NumberFormatException e) {
                         System.out.println("Something was going wrong! Try again");
-                    };
+                    }
                 }
 
                 //Вывод элементов нужных нам
