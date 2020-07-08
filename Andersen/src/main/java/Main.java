@@ -12,6 +12,7 @@ public class Main {
         while (true){
             System.out.println("You can chose 3 options: number>7, write Вячеслав, write array.");
             System.out.println("Write 'q' to exit.");
+            System.out.println("Write 'asdasd");
             str=in.nextLine();
             if(str.equals("q")) break;
 
