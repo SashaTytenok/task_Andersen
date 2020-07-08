@@ -32,7 +32,7 @@ public class Main {
 
                 //Проверяем не массив ли мы хотим ввести
             else if (str.equals("array")) {
-                ArrayList<Integer> arr_L = new ArrayList();
+                ArrayList<Integer> arr_L = new ArrayList<Integer>();
 
                 //Режим ввода элементов массива
                 while (true){
